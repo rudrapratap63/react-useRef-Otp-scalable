@@ -1,12 +1,29 @@
-# React + Vite
+# OTP Component with Scalable Inputs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a reusable and customizable OTP (One-Time Password) input component built with React and styled using Tailwind CSS. The component supports a scalable number of input fields, making it suitable for various OTP lengths.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Scalable Inputs:** Easily configure the number of OTP input fields.
+- **Keyboard Navigation:** Seamless navigation between inputs using keyboard.
+- **Paste Support:** Paste entire OTP at once.
+- **Customizable:** Easily style and integrate into your project with Tailwind CSS.
+- **Validation:** Basic input validation for numeric or alphanumeric OTPs.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/otp-component.git
+   cd otp-component
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
